@@ -9,3 +9,6 @@ Server side error handling leaves a bit to be desired.
   + All trapped server errors are reported as 400 BAD REQUEST.
 
 Styling could use some work.
+
+Parser looks for keywords at start of line; validation disallows
+keywords any where in line.
