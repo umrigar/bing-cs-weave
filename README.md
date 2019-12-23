@@ -1,8 +1,8 @@
->Binghamton CS Weave
+# Binghamton CS Weave
 
 Simple update for accredition weave files using a web form.
 
->>Installation
+## Installation
 Change into directory containing this file and install using:
 
 ```sh
@@ -10,7 +10,7 @@ $ npm ci
 $ npm run build
 ```
 
->>Running
+## Running
 Start server using:
 
 ```sh
@@ -29,7 +29,7 @@ An example start up:
 $ ./index.js 2345 ../weave/2020 2>>weave-errors.log &
 ```
 
->>Not in Scope
+## Not in Scope
 Orthogonal issues not in scope for this code:
 
 - Authentication of users.
