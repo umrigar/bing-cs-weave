@@ -3,6 +3,9 @@
 Allows updating of accredition weave files using a web form.
 
 ## Installation
+
+Requires a recent [nodejs](https://nodejs.org) installation.
+
 Change into directory containing this file and install using:
 
 ```sh
