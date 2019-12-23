@@ -1,0 +1,5 @@
+Had course form submit when blurring a textarea, but problems with
+errors.  Specically, what should be done when a previously blurred
+widget is in error and currently blurred widget is fine.  Did not come
+up with a good solution which would not surprise the user; hence
+simply do a normal form submit.

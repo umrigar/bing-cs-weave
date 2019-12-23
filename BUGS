@@ -1,0 +1,11 @@
+Errors are handled on the client-side; server-side error handling is
+mainly to prevent non-official client submissions from causing problems.
+Server side error handling leaves a bit to be desired.
+
+  + No attempt is made to display server errors for error-causing
+    widgets.  In fact, only the error is displayed without any
+    other content.
+
+  + All trapped server errors are reported as 400 BAD REQUEST.
+
+Styling could use some work.

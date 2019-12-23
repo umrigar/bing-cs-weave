@@ -1,0 +1,77 @@
+:root {
+  --base-color: 0, 0, 192;
+  --color09: rgb(var(--base-color));
+  --color01: rgba(var(--base-color), 0.05);
+  --color02: rgba(var(--base-color), 0.1);
+  --color03: rgba(var(--base-color), 0.15);
+  --color04: rgba(var(--base-color), 0.3);
+  --color05: rgba(var(--base-color), 0.4);
+  --max-width: 800px;
+}
+
+body {
+  color: var(--color09);
+  background-color: var(--color01);
+  max-width: var(--max-width);
+}
+
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+
+.rubric {
+  width: 100%;
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  border-color: var(--color04);
+  padding: 0px 0px 1em 0px;
+  margin: 2rem 0px;
+  display: grid;
+  grid-template-columns: 0.15fr 1fr;
+  grid-gap: 2vw;
+}
+
+select {
+  height: 2rem;
+}
+
+textarea {
+  width: 90%;
+  height: 10rem;
+}
+select {
+  background-color: var(--color03);
+}
+
+input[type=submit] {
+  background-color: var(--color03);
+  border: 3px solid var(--color04);
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+input[type=submit]:hover:enabled {
+  background-color: var(--color05);
+}
+  
+.rubric0, .metric0, .report0 {
+  font-size: larger;
+  font-weight: bold;
+  text-align: right;
+}
+
+
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+
+
