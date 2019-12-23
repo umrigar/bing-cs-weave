@@ -1,6 +1,6 @@
 # Binghamton CS Weave
 
-Simple update for accredition weave files using a web form.
+Allows updating of accredition weave files using a web form.
 
 ## Installation
 Change into directory containing this file and install using:
